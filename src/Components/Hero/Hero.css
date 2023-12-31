@@ -1,0 +1,85 @@
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--base2);
+  
+  
+}
+p{
+  font-size: 20px;
+  
+  
+}
+.email{
+  margin-left: 20px;
+}
+
+.hero-text {
+  width: 50%; /* Adjust the width of the text content */
+  text-align: left; /* Align text to the left */
+  padding: 0 20px; /* Add padding for better spacing */
+  position: relative;
+  left: 250px;
+  color: var(--body);
+  
+}
+
+.hero-image {
+  width: 50%; /* Adjust the width of the image */
+  order: 2; /* Place the image on the right */
+}
+
+.hero-image img {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+}
+  
+
+@media screen and (max-width: 991px) {
+ 
+  .hero-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 120px;
+    
+  }
+
+  .hero-text {
+    order: 1; /* Change the order of text to come first */
+    text-align: left; /* Center-align text */
+    width: 80%; /* Adjust width as needed */
+    margin-bottom: 20px; /* Add some spacing */
+    position: inherit;
+    right: 100px;
+    
+  }
+
+  .hero-image {
+    order: 2; /* Place the image after the text */
+    width: 80%; /* Adjust width as needed */
+  }
+
+  .hero-image img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  p{
+    font-size: 20px;
+    width: auto;
+  }
+  h2{
+    width: auto;
+  }
+  .email{
+    margin-left: 0;
+  }
+  
+ 
+}
+
+
+
+
+

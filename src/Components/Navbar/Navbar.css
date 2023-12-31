@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #262626;
+    --color-base1: linear-gradient(to right, #1f0436ff, rgb(35, 3, 37));
+    --color-base2: linear-gradient(to top, #1B1B1B, #252526);
+    --color-base3:linear-gradient(to bottom, #282828, rgb(44, 48, 56));
+    --color-brand: #49beb7;
+    --color-brand2: #bf2e80ff;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+  
+}
+i.fab.fa-linkedin {
+    font-size: 22px;
+  }
+
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+
+
+img {
+    width: 100%;
+
+}
+
+ul{
+    list-style: none;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--color-base);
+    box-shadow: 10px -1px 2px 2px rgba(0, 0, 0, 0.3); /* Larger shadow for visibility */
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+.navbar .nav-link.active {
+    color: var(--color-brand);
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        /*background: linear-gradient(rgb(73, 190, 183, 0.6), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);*/
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
+    }
+
+    /* CONTENT WRAPPER */
+    #content-wrapper {
+        padding-left: var(--sidbar-width);
+    }
+}
+
+/* BTN */
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+    
+
+    
+}
+
+.link-custom {
+    font-weight: 700;
+    position: relative;
+}
+
+/* SOCIAL ICONS */
+
+.linkedin-icon {
+    
+    color: aqua;
+    width:45;
+    height: 55;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-base);
+    border-radius: 100px;
+    font-size: 24px;
+}

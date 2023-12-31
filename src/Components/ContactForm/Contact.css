@@ -1,0 +1,51 @@
+.contact{
+  height: 75vh;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  border-bottom: 2px solid var(--brand);
+  background: var(--base1);
+  padding-left: 240px;
+  
+}
+.contain{
+  padding-left: 250px;
+}
+h1 {
+  color: var(--heading);
+}
+.but{
+  width: 100%;  
+}
+.form-group button {
+  width: 100%;
+}
+.form-control::placeholder{
+  color: var(--heading);
+}
+
+.form-control{
+  background: var(--base);
+  color: aqua;
+  
+  
+}
+
+@media screen and (max-width: 991px) {
+    .contain {
+        margin: auto;
+        width: auto;
+        height: auto;
+        padding-left: 0;
+        
+    }
+    .contact{
+        padding: 20px 20px;
+       
+        
+    }
+    .but{
+      width: auto;
+    }
+}

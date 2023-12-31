@@ -23,6 +23,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+html, body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  /* Other global styles */
+}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +39,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+.custom-button {
+  background-color: aqua;
+  text-decoration: none;
+  border: none;
+  border-radius: 7px;
+  height: 40px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 700;
+  width: 170px;
+  /* Add other common styles for your buttons */
+}
+
+/* Additional styles or hover effects for your buttons */
+.custom-button:hover {
+  background-color: rgb(213, 49, 142);
+  /* Add other hover effects if needed */
 }

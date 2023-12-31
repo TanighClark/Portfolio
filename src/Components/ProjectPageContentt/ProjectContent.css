@@ -1,0 +1,26 @@
+.projectContents{
+    padding-left: 250px;
+    height: 100vh;   
+    background: rgb(16, 30, 85);
+    color: var(--heading);
+}
+.projectContents h2{
+    padding: 15px;
+}
+.videobox{
+    max-width: 150vh;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem 0;
+    padding-bottom: 50px;
+}
+
+.videobox p{
+    margin: 0;
+}
+@media screen and (max-width: 600px){
+   
+}
+
