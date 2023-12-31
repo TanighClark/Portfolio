@@ -22,7 +22,7 @@ button {
     height: 40px;
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 700;
-    width: 170px;
+    max-width: 170px;
     color: black;
     /* Add other common styles for your buttons */
 }

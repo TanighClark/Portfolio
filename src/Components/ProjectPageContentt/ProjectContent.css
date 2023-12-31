@@ -4,10 +4,7 @@
     background: rgb(16, 30, 85);
     color: var(--heading);
 }
-.projectContents h2{
-    padding: 15px;
-}
-.videobox{
+.videobox {
     max-width: 150vh;
     height: auto;
     margin: 0 auto;
@@ -17,10 +14,38 @@
     padding-bottom: 50px;
 }
 
-.videobox p{
+.videobox .content {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+}
+
+.videobox p {
     margin: 0;
 }
-@media screen and (max-width: 600px){
-   
+
+
+/* Adjusting the grid for smaller screens */
+@media screen and (max-width: 991px) {
+    .videobox {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
+    .projectContents{
+        padding-left: 0px;
+        height: auto;
+    }
+    .video{
+        width: 308px;
+        height: auto;
+        
+    }
+    .content button{
+        position: relative;
+        left: 55px;
+    }
 }
+
 

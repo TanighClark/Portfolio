@@ -22,7 +22,7 @@ const AboutContent = () => {
                 screen into a beautiful and organized interface.</p>
                 <div className="button-container">
                 <button><Link to='/Pages/Portfolio' >Portfolio</Link></button>
-                <button> <a href="Assets/resume.PDF" download className=" but">Resume</a></button>
+                <button> <a href="../Assets/resume.pdf" download className="but">Resume</a></button>
                 </div>
         </div>
         <div className="right">

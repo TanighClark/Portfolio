@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import '../CommonStyles/CommonStyles.css';
-import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import Row from 'react-bootstrap/Row';
 import Modal from 'react-bootstrap/Modal';
 
 function Contactt() {
@@ -47,7 +44,7 @@ function Contactt() {
                             <div className="form-group col-12">
                                 <input type="text" name="name" className="form-control" placeholder="Enter your full name" required />
                             </div>
-                            
+
                             <div className="form-group col-12">
                                 <input type="email" name="email" className="form-control" placeholder="Enter your email" required />
                             </div>
@@ -60,10 +57,8 @@ function Contactt() {
                             <div className="form-group col-12">
                                 <button type="submit" className="but">Contact me</button>
                             </div>
-                            <div className="form-group col-12">
-                                <button><a href="Assets/resume.PDF" download className="but">Download CV</a></button>
-                            </div>
                         </form>
+
                         <Modal show={emailSent} onHide={handleClose}>
                             <Modal.Header closeButton>
                                 <Modal.Title>Email Sent</Modal.Title>
@@ -75,6 +70,12 @@ function Contactt() {
                                 <button onClick={handleClose}>Close</button>
                             </Modal.Footer>
                         </Modal>
+                        <div className="form-group col-12">
+                            <button>
+                                <a href="../Assets/resume.pdf" download className="but">Download CV</a>
+                            </button>
+                        </div>
+
                     </div>
                 </div>
             </div>
