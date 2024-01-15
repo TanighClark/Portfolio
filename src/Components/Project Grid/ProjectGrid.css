@@ -27,6 +27,7 @@ h3{
 }
 
 
+
 @media screen and (max-width: 991px) {
     
 
@@ -65,6 +66,10 @@ h3{
         order: unset;
         display: block;
         
+    }
+    .card-body{
+        height: auto;
+    
     }
 }
 

@@ -24,7 +24,9 @@ const ProjectGrid = () => {
                             simulated online shopping experience, demonstrating my proficiency in front-end
                             development.
                         </Card.Text>
+                        <div className='position'>
                         <Button className="button" variant="primary">Go somewhere</Button>
+                        </div>
                     </Card.Body>
                 </Card>
 
