@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,7 +26,7 @@
 html, body {
   font-family: 'Bai Jamjuree', sans-serif;
   /* Other global styles */
-}
+/* }
 
 .App-link {
   color: #61dafb;
@@ -50,10 +50,9 @@ html, body {
   font-weight: 700;
   width: 170px;
   /* Add other common styles for your buttons */
-}
+/* }
 
-/* Additional styles or hover effects for your buttons */
+
 .custom-button:hover {
   background-color: rgb(213, 49, 142);
-  /* Add other hover effects if needed */
-}
+  Add other hover effects if needed */

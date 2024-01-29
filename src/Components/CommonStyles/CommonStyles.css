@@ -6,10 +6,10 @@
     --base: #262626;
     --base1: linear-gradient(to bottom, #1c0536ff, rgb(24, 2, 26));
     --base2: linear-gradient(to right, #1c0536ff, rgb(27, 2, 57));
-    --base3:linear-gradient(to bottom, #282828, rgb(44, 48, 56));
+    --base3: linear-gradient(to bottom, #282828, rgb(44, 48, 56));
     --brand: rgb(73, 190, 183);
     --brand2: #bf2e80ff;
-   
+
 
 }
 
@@ -32,13 +32,16 @@ button:hover {
     background-color: var(--brand2);
     /* Add other hover effects if needed */
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-a:hover{
+
+a:hover {
     color: var(--brand2);
 }
+
 .btn {
     background-color: var(--brand);
     text-decoration: none;
@@ -57,25 +60,30 @@ a:hover{
     background-color: var(--brand2);
     /* Add other hover effects if needed */
 }
-h3{
-    font-weight: 700;
-    padding: 50px 50px;
-}
-h2{
+
+
+
+h2 {
     font-weight: 700;
     padding-bottom: 20px;
-    
+
 }
-h2 span{
+
+h2 span {
     color: var(--brand);
 }
-p{
+
+p {
     font-family: 'Bai Jamjuree', sans-serif;
     padding-bottom: 20px;
-   
-    
-}
-body, h1, h2, h3, h4 {
-    font-family: 'Bai Jamjuree', sans-serif;
-  }
 
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
