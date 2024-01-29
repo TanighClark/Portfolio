@@ -26,7 +26,9 @@ const ProjectGrid = () => {
                             used in todays modern world.
                         </Card.Text>
                         <div className='position'>
-                            <Button className="button" variant="primary">Go somewhere</Button>
+                            <Button href='https://3sumjx5jr3.us-east-1.awsapprunner.com/'
+                                className="button"
+                                variant="primary">Go somewhere</Button>
                         </div>
                     </Card.Body>
                 </Card>
@@ -35,12 +37,10 @@ const ProjectGrid = () => {
                 <Card className='card-two'>
                     <Card.Img className='photo' variant="top" src={Com} />
                     <Card.Body>
-                        <Card.Title>Mock Netflix Account</Card.Title>
+                        <Card.Title>Non-Profit Website</Card.Title>
                         <Card.Text>
-                            The mock account features a user-friendly login system, reminiscent of Netflix's
-                            secure authentication process. Within the account, I've meticulously replicated the
-                            browsing experience, allowing users to explore a curated selection of 'movies' and 'TV shows,'
-                            showcasing my attention to detail in mimicking real-world functionalities.
+                            The Rondel Clark Foundation is fighting against extreme weight cutting practices in
+                            combat sports and we are also dedicated to educate the community on the dangers of extreme..
                         </Card.Text>
                         <Button className="button" variant="primary">Go somewhere</Button>
                     </Card.Body>
@@ -57,7 +57,10 @@ const ProjectGrid = () => {
                             transforming textual input into vibrant and expressive visual representations. Leveraging cutting-edge AI models,
                             it converts text into captivating images, offering a creative and novel way to visualize ideas and concepts.
                         </Card.Text>
-                        <Button className="button" variant="primary">Go somewhere</Button>
+                        <Button
+                            href='https://ai-wizardry.vercel.app/'
+                            className="button"
+                            variant="primary">Go somewhere</Button>
                     </Card.Body>
                 </Card>
             </div>
