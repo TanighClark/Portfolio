@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './ProjectContent.css'
-import ReactPlayer from 'react-player'
+
 import video from '../Assets/e-commerce.mp4'
 import Air from '../Assets/premiumAir.mp4'
 import AI from '../Assets/AI-Wizardry.mp4'

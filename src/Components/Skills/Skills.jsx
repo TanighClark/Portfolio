@@ -1,8 +1,6 @@
 import React from 'react'
 import './Skills.css'
-import Button from 'react-bootstrap/Button';
-import ListGroup from 'react-bootstrap/ListGroup';
-import { Link } from 'react-router-dom';
+
 import '../CommonStyles/CommonStyles.css'
 
 
