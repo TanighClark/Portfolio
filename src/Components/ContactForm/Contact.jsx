@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Contact.css';
 import '../CommonStyles/CommonStyles.css';
 import Modal from 'react-bootstrap/Modal';
+import resume from '../Assets/resume.PDF';
 
 function Contactt() {
   const [emailSent, setEmailSent] = useState(false);
@@ -97,11 +98,7 @@ function Contactt() {
             </Modal>
             <div className="form-group col-12">
               <div>
-                <a
-                  href="../Assets/resume.pdf"
-                  download="resume.pdf"
-                  class="btn-download"
-                >
+                <a href={resume} download="resume.pdf" class="btn-download">
                   Download CV
                 </a>
               </div>
